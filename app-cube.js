@@ -48,6 +48,8 @@ var cubeGeometry = new THREE.BoxGeometry();
 var cubeMaterial = new THREE.MeshLambertMaterial( { color: 0xe0e0e0, wireframe: false } );
 
 var cube = new THREE.Mesh( cubeGeometry, cubeMaterial );
+cube.scale.set( 1.5, 1.5, 1.5 );
+cube.rotation.set( 0, 45, 0 );
 cube.castShadow = true;
 scene.add( cube );
 
