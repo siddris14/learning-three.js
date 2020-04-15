@@ -99,9 +99,9 @@ function animate( ) {
 	requestAnimationFrame( animate );
 
 	// Add animation to the cube
-	// cube.rotation.x += 0.02;
-	// cube.rotation.y += 0.01;
-	// cube.rotation.z += 0.03;
+	cube.rotation.x += 0.02;
+	cube.rotation.y += 0.01;
+	cube.rotation.z += 0.03;
 
 	// Calling the renderer
 	// renderer.render( scene, camera );
